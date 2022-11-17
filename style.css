@@ -1,19 +1,29 @@
-*{
+body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #7D7F85;
 }
+#main{
+    width: 800px;
+    margin: auto;
+}
 a{
-color: #AF0215;
-text-decoration: none;
+    color: #AF0215;
+    text-decoration: none;
+}
+img{
+    height: 200px;
+    width: 100%;
 }
 table{
-
+    width: 500px;
+    text-align: center;
+    color: black;
 }
 th{
-
+    background-color: #777777;
 }
 tr:nth-child(odd){
-background-color: #AAAAAA;
+    background-color: #AAAAAA;
 }
 footer{
     background-color: #1A3B98;
@@ -21,12 +31,23 @@ footer{
     color: white;
     width: 100%;
 }
-#top{
-
-}
 #left{
-display: inline-flex;
+    background-color: #1A3B98;
+    /* display: flex; */
+    /* flex-direction: row; */
+    float: left;
+    height: 600px;
+    width: 20%;
+    text-align: center;
 }
 #right{
-display: inline-flex;
+    background-color: #c2c3c2;
+    display: flex; 
+    flex-direction: column;
+    color: #886829;
+    width: 80%;
+    height: 560px;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
 }
