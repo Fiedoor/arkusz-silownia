@@ -8,18 +8,24 @@
 </head>
 
 <body>
-    <div id="top"><img src="baner1.png" alt="baner"></div>
+    <div id="top"><img src="baner.png" alt="baner"></div>
     <div id="left">
-        <a href="index.html">
+        <a href="index.html" target="_blank">
             <h2>BMI</h2>
         </a>
-        <a href="kalkulator.html">
+        <a href="kalkulator.html" target="_blank">
             <h2>Kalkulator</h2>
         </a>
     </div>
-    <div id="right"></div>
+    <div id="right">
+        <label for="waga">Waga: <br><input type="number" name="waga" id="wg"></label><br>
+        <label for="wzrost">Wzrost: <br><input type="number" name="wzrost" id="wz"></label><br>
+        <button>Oblicz BMI</button>
+        <p id="wynik"></p>
+        <p id="kat"></p>
+    </div>
     <footer>
-        <p>Autor: Stanisław Fiedoruk 4J</p>
+        Autor: Stanisław Fiedoruk 4J
     </footer>
     <script src="script.js"></script>
 </body>
