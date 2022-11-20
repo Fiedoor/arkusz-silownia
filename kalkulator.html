@@ -1,38 +1,34 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
     <title>Index body mass</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="main">
-    <div id="top"><img src="baner.png" alt="baner"></div>
-    <div id="left">
-        <hr>
+      <div id="top"><img src="baner.gif" alt="baner" /></div>
+      <div id="left">
+        <hr />
         <a href="index.html" target="_blank">
-            <h2>BMI</h2>
+          <h2>BMI</h2>
         </a>
-        <hr>
+        <hr />
         <a href="kalkulator.html" target="_blank">
-            <h2>Kalkulator</h2>
+          <h2>Kalkulator</h2>
         </a>
-        <hr>
+        <hr />
+      </div>
+      <div id="right">
+        <label for="waga">Waga: <br /><input type="number" name="waga" id="wg" placeholder="kg" /></label><br />
+        <label for="wzrost">Wzrost: <br /><input type="number" name="wzrost" id="wz" placeholder="cm" /></label><br />
+        <button id="obl">Oblicz BMI</button>
+        <p id="wynik" style="margin: 30px 0 30px 0; font-size: 30px">Twoje BMI:</p>
+        <p id="kat" style="font-size: 50px">Kategoria</p>
+      </div>
+      <footer>Autor: Stanisław Fiedoruk 4J</footer>
     </div>
-    <div id="right">
-        <label for="waga">Waga: <br><input type="number" name="waga" id="wg"></label><br>
-        <label for="wzrost">Wzrost: <br><input type="number" name="wzrost" id="wz"></label><br>
-        <button>Oblicz BMI</button>
-        <p id="wynik" style="margin: 30px 0 30px 0; font-size: 30px;">Twoje BMI:</p>
-        <p id="kat" style="font-size: 50px;">Kategoria</p>
-    </div>
-    <footer>
-        Autor: Stanisław Fiedoruk 4J
-    </footer>
-</div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
