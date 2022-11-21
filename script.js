@@ -8,7 +8,7 @@ document.getElementById('obl').addEventListener('click', function () {
   } else {
     let c = a / (b * b)
     console.log(c)
-    document.getElementById('wynik').innerText = 'Twoje BMI: ' + c.toFixed(1)
+    document.getElementById('wynik').innerText = 'Twoje BMI: ' + c.toFixed(2)
     if (c < 18.5) {
       document.getElementById('kat').innerText = 'Kategoria: Niedowaga'
       document.getElementById('kat').style.color = 'red'
